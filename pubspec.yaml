@@ -1,0 +1,114 @@
+name: keptoon
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.3
+  flushbar: ^1.10.4
+  animated_splash_screen: ^1.0.0+1
+  cloud_firestore: ^0.13.7
+  firebase_auth: ^0.16.1
+  firebase_storage: ^3.1.6
+  progress_dialog: ^1.2.4
+  grafpix: ^1.2.8
+  awesome_dialog: ^1.1.3
+  animator: ^1.0.0+5
+  content_placeholder: ^0.1.0
+  firebase_messaging: ^6.0.16
+  permission_handler: ^5.0.1+1
+  path_provider: ^1.6.11
+  path: ^1.7.0
+  zoom_widget: ^0.1.3
+  video_player: ^0.10.11+2
+  flutter_xlider: ^3.4.0
+  image_picker: ^0.6.7+4
+  photo_manager: ^0.5.3+1
+  fancy_shimmer_image: ^1.0.1
+  flutter_video_compress: ^0.3.7+8
+  simple_image_crop: ^0.1.3
+  # cached_network_image: ^2.2.0+1
+  google_maps_flutter: ^0.5.28+1
+  google_maps_webservice: ^0.0.17
+  location: ^3.0.2
+  geolocator: ^5.3.2+2
+  timeago: ^2.0.26
+  uuid: ^2.2.0
+  giphy_picker: 
+    path: ./modified_lib/giphy_picker-1.0.4
+  video_trimmer: 
+    path: ./modified_lib/video_trimmer-0.2.4
+  # video_trimmer: ^0.2.4
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.7.5
+  
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+  
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+ 
+  uses-material-design: true
+
+  assets:
+    - assets/empty.jpg
+    - assets/empty_chat.jpg
+    - assets/empty_story.png
+    - assets/profilephoto.png
+    - assets/splash_icon.png
+    
+    
+    - assets/icons/bell.png
+    - assets/icons/dot.png
+    - assets/icons/rotate_cam.png
+    - assets/icons/empty_dot.png
+    - assets/icons/chat.png
+    - assets/icons/diary.png
+    - assets/icons/user.png
+    - assets/icons/edit.png
+    - assets/icons/eye_open.png
+    - assets/icons/eye_close.png
+    - assets/icons/left-arrow.png
+    - assets/icons/video-camera.png
+    - assets/icons/camera.png
+    - assets/icons/done.png
+    - assets/icons/plus.png
+    - assets/icons/tag.png
+    - assets/icons/close.png
+    - assets/icons/crop.png
+    - assets/icons/cut.png
+    - assets/icons/play.png
+    - assets/icons/pin.png
+    - assets/icons/marker.png
+    - assets/icons/correct.png
+    - assets/icons/heart.png
+    - assets/icons/comment.png
+    - assets/icons/bookmark.png
+    - assets/icons/heart_color.png
+    
+    - assets/gif_icons/edit.gif
+    - assets/gif_icons/live.gif
+    
+    
+    - assets/json/map_style.json
+    
+
+  
